@@ -3,7 +3,8 @@ OpenMSX Configuration files
 
 - Copy **NABU-PC** folder to /Share/Machines
 - Copy **NABU8.ROM** to /Share/systemroms
-
+  
+  
 Note:
 - NabU is not officially suported in OpenMSX (Hopefully in the future ?)
 - Z80 CPU working 100%
