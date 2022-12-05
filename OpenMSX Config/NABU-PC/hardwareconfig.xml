@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!DOCTYPE msxconfig SYSTEM 'msxconfig2.dtd'>
+<msxconfig>
+
+  <info>
+    <manufacturer>NABU</manufacturer>
+    <code>NABU</code>
+    <release_year>1983</release_year>
+    <description/>
+    <type>NABU</type>
+  </info>
+
+  <devices>
+
+    <PPI id="ppi">
+      <sound>
+        <volume>16000</volume>
+      </sound>
+      <io base="0xA8" num="4"/>
+      <keyboard_type>int</keyboard_type>
+      <has_keypad>false</has_keypad>
+      <key_ghosting_sgc_protected>true</key_ghosting_sgc_protected>
+      <code_kana_locks>false</code_kana_locks>
+      <graph_locks>false</graph_locks>
+    </PPI>
+
+    <VDP id="VDP">
+      <version>TMS9918A</version>
+      <io base="0xA0" num="8"/> <!-- S-3527 mirrors -->
+      <saturationPr>75</saturationPr>
+      <saturationPb>50</saturationPb>
+    </VDP>
+
+    <PSG id="PSG">
+      <type>YM2149</type> <!-- AY-3-8910 Compatible -->
+      <sound>
+        <volume>21000</volume>
+      </sound>
+      <io base="0x40" num="1" type="O"/>
+      <io base="0x41" num="1" type="O"/>
+      <io base="0x40" num="1" type="I"/>
+    </PSG>
+
+    <PrinterPort id="Printer Port">
+      <io base="0xB0" num="2"/>
+    </PrinterPort>
+
+    <primary slot="0">
+	  <ROM id="NaBu BIOS ROM 8k">
+        <rom>
+          <filename>NABU8.ROM</filename>
+          <sha1>dba87da037d4cff23d35f00fb5dd2ff008d0aed3</sha1>
+        </rom>
+        <mem base="0x0000" size="0x2000"/>
+      </ROM>
+	  
+	  <RAM id="Main RAM">
+        <mem base="0x2000" size="0xE000"/>
+		<initialContent encoding="gz-base64">eJz7/5+B4f8IxgPvgoHFAJBx/wE=</initialContent> 
+      </RAM>
+	</primary>
+
+  </devices>
+
+</msxconfig>
