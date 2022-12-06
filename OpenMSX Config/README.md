@@ -7,7 +7,7 @@ OpenMSX Configuration files
   
   
 Note:
-- NabU is not officially suported in OpenMSX (Hopefully in the future ?)
+- **NabU PC is not officially suported in OpenMSX (Hopefully in the future ?)**
 - Z80 CPU working 100%
 - VDP working 100%
 - PSG Sound Not working yet.
