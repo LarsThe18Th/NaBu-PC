@@ -108,7 +108,7 @@ setvdpdata:
 setvdpdataend:
 
 imagebegin:
-					incbin cleo3NulOUT.hex				;Load Sc2 Image
+					incbin cleo3NulOUT.hex				;Compressed image
 imageend:
 
 
