@@ -6,6 +6,6 @@ It loads and decompresses a image in 'Graphics Mode II'
 
 Graphics by  **Dustin Ramsey**<br><br>
 
-### Thanks to:<br>
+### Thanks to:
 ***DJ Sures*** for support and testing.<br>
 ***NI Computer Services*** for testing.
