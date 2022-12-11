@@ -12,6 +12,7 @@
 
 vdpio equ #A0		;VDP IO
 
+					di
 					jr start
 					db "              "
 					db "Sc2Cleo for NaBu"
@@ -25,7 +26,6 @@ vdpio equ #A0		;VDP IO
 
 start:
 
-					di
 					ld b,setvdpdataend-setvdpdata
 					ld c,vdpio+1
 					ld hl,setvdpdata					;VDP data to write
