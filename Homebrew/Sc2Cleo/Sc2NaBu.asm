@@ -12,6 +12,10 @@
 
 vdpio equ #A0		;VDP IO
 
+					nop									;Adjusting entry point
+					nop
+					nop
+
 					di
 					jr start
 					db "              "
