@@ -3,6 +3,6 @@
 A simple plasma effect in TXT mode 0. (Starting @140D)<br><br>
 
 ### Thanks to:
-Original idea and code example by
-nick: goblinish (Krapivin Dmitry)
+Original idea and code example by<br>
+nick: goblinish (Krapivin Dmitry)<br>
 Contact: hruhru.hru@yandex.ru
