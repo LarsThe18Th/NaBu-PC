@@ -1,6 +1,6 @@
 # Sc0Plasma
 
-A simple plasma effect in TXT mode 0. (Starting @140D)<br>
+Plasma Effect with ASCII in TXT Mode 0. (Starting @140D)<br>
 Ported to the NaBu-PC by Lars The 18Th<br><br>
 
 ### Thanks to:
