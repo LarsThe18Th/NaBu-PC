@@ -1,4 +1,4 @@
-; SC0Plasma v0.1
+; Sc0Plasma v0.1
 ; Plasma Effect with ASCII in TXT Mode 0
 ; Ported to the NaBu-PC by Lars The 18Th
 ;
