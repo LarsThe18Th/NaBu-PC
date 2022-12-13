@@ -7,4 +7,4 @@
 - Disabling ROM not working yet.
 - HCCA Not supported<br>
 
-[openMSX Website](https://openmsx.org/)
+Please visit the [openMSX Website](https://openmsx.org/)
