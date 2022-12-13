@@ -2,7 +2,7 @@
 OpenMSX Configuration files for developers
 
 - Copy **NABU-PC** folder to /Share/Machines
-- Copy **NABU8.ROM** to /Share/systemroms
+- Copy **NaBu8CUSTOM.ROM** to /Share/systemroms
   
 Start the emulator and  load the ROM in to RAM in the console ([F10] Key)<br>
 **load_debuggable memory NaBu8CUSTOM.ROM 0x0000)**<br>
