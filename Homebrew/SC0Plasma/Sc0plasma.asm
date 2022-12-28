@@ -4,7 +4,7 @@
 ;
 ; Original idea and code example by
 ; nick: goblinish (Krapivin Dmitry)
-; Contact: hruhru.hru@yandex.ru
+
 
 	output 000001.nabu
 
