@@ -7,5 +7,5 @@
 ### ToDo
 - Add ID-Tag
 - Initialize Screen 0 Mode 40
-- Let ASM file generate a .nabu and a .con file (.PAK file?)
+- Let ASM file generate a .NABU and a .COM file (.PAK file?)
 - Get rid of the undocumented instructions
