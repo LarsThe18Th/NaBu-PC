@@ -46,7 +46,7 @@ add_chars:
 						ld c,vdpram
 setvdpregisters:
 						outi
-						jp nz,setvdpregisters				; Write to VRAM
+						jp nz,setvdpregisters			; Write to VRAM
 
 					pop bc
 					djnz add_chars
