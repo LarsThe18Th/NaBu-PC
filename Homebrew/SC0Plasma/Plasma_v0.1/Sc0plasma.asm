@@ -205,7 +205,7 @@ olp:
 					ret
 
 plchar:
-	db "..oo**OO00OO**oo.." ; .o*O0O*o.
+	db "..oo**OO00OO**oo.." ; .o*O0O*o. 
 	db 0
 pltxt:
 
