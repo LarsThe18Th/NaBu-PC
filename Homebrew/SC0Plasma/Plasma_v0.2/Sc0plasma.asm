@@ -211,7 +211,6 @@ plchar:
 pltxt:
 
 charset:
-char_star:
 ; Recreate the '*' charakter
 					db #50,#01+64						;VRAM adress 0150
 					db %00100000
@@ -223,7 +222,6 @@ char_star:
 					db %00100000
 					db %00000000
 
-char_dot
 ; Recreate the '.' charakter
 					db #70,#01+64						;VRAM adress 0170
 					db %00000000
@@ -235,7 +233,6 @@ char_dot
 					db %01100000
 					db %00000000
 
-char_zero:
 ; Recreate the 'O' charakter
 					db #80,#01+64						;VRAM adress 0180
 					db %01110000
@@ -247,7 +244,6 @@ char_zero:
 					db %01110000
 					db %00000000
 					
-char_o_up:
 ; Recreate the 'O' charakter
 					db #78,#02+64						;VRAM adress 0278
 					db %01110000
@@ -259,7 +255,6 @@ char_o_up:
 					db %01110000
 					db %00000000
 					
-char_o_low:
 ; Recreate the 'o' charakter
 					db #78,#03+64						;VRAM adress 0378
 					db %00000000
