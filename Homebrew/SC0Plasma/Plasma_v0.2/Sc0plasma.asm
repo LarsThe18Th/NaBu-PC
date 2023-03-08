@@ -46,7 +46,7 @@ add_chars:
 						ld c,vdpram
 setvdpregisters:
 						outi
-						jp nz,setvdpregisters			; Write to VRAM
+						jp nz,setvdpregisters				; Write to VRAM
 
 					pop bc
 					djnz add_chars
@@ -119,8 +119,8 @@ plas_lp:
 					push hl
 					exx
 
-					db #DD						; #DD, 2E -> Undocumented instruction !
-					ld l,24						; ld ixl,n
+					db #DD								; #DD, 2E -> Undocumented instruction !
+					ld l,24								; ld ixl,n
 
 ply:
 					ld a,40
@@ -173,8 +173,8 @@ plx:
 					add a,3
 					ld c,a
 
-					db #dd						; #DD,#2D -> Undocumented instruction !
-					dec l						; dec ixl 
+					db #dd								; #DD,#2D -> Undocumented instruction !
+					dec l								; dec ixl 
 					jp nz,ply
 
 ;copy to screen
