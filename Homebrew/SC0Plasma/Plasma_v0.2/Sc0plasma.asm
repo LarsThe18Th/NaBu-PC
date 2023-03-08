@@ -24,7 +24,7 @@ vdpio	equ #A1				; VDP IO
 					nop
 					di
 
-; Set color 15,1
+;Set color 15,1
 					ld a,#f1							; TXT color 15, Back color 1
 					out (vdpio),a
 					
@@ -32,7 +32,7 @@ vdpio	equ #A1				; VDP IO
 					out (vdpio),a
 
 
-; Put all 5 Chars in VRAM
+;Put all 5 Chars in VRAM
 
 					ld b,5
 					ld c,vdpio
