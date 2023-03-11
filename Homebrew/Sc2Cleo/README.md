@@ -6,6 +6,8 @@ It loads and decompresses a image in 'Graphics Mode II'<br>
 Graphics by  ***Dustin Ramsey***<br><br>
 ***Tested and working on real NaBu-PC now. !!!***<br><br>
 
+[Click here to see this software in action](https://youtu.be/_EWXAR0DiLM)<br><br>
+
 ### Thanks to:
 ***DJ Sures*** for support and testing.<br>
 ***NI Computer Services*** for testing.
