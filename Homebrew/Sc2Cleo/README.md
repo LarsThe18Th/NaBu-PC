@@ -4,7 +4,6 @@ I wrote a homebrew BIN file in pure Assembler for testing. (Starting @140D)
 It loads and decompresses a image in 'Graphics Mode II'<br>
 
 Graphics by  ***Dustin Ramsey***<br><br>
-***Tested and working on real NaBu-PC now. !!!***<br><br>
 
 [Click here to see this software in action](https://youtu.be/_EWXAR0DiLM)<br><br>
 
